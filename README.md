@@ -1,24 +1,13 @@
 # OmniRole
-Short description and motivation.
+通用角色权限管理(Engine)
 
 ## Usage
-How to use my plugin.
 
 ## Installation
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omni_role'
-```
-
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install omni_role
+gem 'omni_role', git: "git@gitlab.io-note.cn:shared/omni_role.git", branch: "master"
 ```
 
 ## Contributing
