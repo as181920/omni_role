@@ -3,7 +3,7 @@ module OmniRole
     extend ActiveSupport::Concern
 
     included do
-      has_many :roles, as: :resource, dependent: :destroy
+      has_many :roles, class_name: "OmniRole::Role", as: :resource, dependent: :destroy
     end
 
     class_methods do
