@@ -7,6 +7,10 @@ module OmniRole
       end
 
       class_methods do
+        def with_permission(permission_name)
+          joins(:permissions)
+            .merge(Permission.where(name: permission_name))
+        end
       end
 
       def add_permission(permission_name)
