@@ -1,0 +1,16 @@
+---
+en:
+  omni_role:
+    engine: "Role based permissions"
+  activerecord:
+    models:
+      omni_role/role: "Role"
+      omni_role/permission: "Permission"
+    attributes:
+      omni_role/role:
+        id: "ID"
+        name: "Name"
+        users_count: "Users count"
+        permission_list: "Permission list"
+      omni_role/permission:
+        name: "Name"

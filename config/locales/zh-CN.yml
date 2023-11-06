@@ -1,9 +1,16 @@
 ---
 zh-CN:
+  omni_role:
+    engine: "角色权限模块"
   activerecord:
+    models:
+      omni_role/role: "角色"
+      omni_role/permission: "权限"
     attributes:
       omni_role/role:
         id: "编号"
         name: "名称"
         users_count: "关联帐号数"
         permission_list: "权限列表"
+      omni_role/permission:
+        name: "名称"
