@@ -12,5 +12,7 @@ zh-CN:
         name: "名称"
         users_count: "关联帐号数"
         permission_list: "权限列表"
+        created_at: "创建于"
+        updated_at: "更新于"
       omni_role/permission:
         name: "名称"

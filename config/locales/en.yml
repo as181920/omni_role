@@ -12,5 +12,7 @@ en:
         name: "Name"
         users_count: "Users count"
         permission_list: "Permission list"
+        created_at: "Created at"
+        updated_at: "Updated at"
       omni_role/permission:
         name: "Name"

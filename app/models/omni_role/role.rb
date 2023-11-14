@@ -11,5 +11,9 @@ module OmniRole
     def users_count
       user_role_maps.count
     end
+
+    def self.ransackable_attributes(_auth_object = nil)
+      %w[name]
+    end
   end
 end
